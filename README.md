@@ -1,1 +1,3 @@
 # :hourglass: On Going...
+
+Day : 1 - React functional component
