@@ -1,0 +1,32 @@
+.hero {
+    height: 90vh;
+    background: rgb(15, 2, 58);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero__heading {
+    justify-content: center;
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 1.2;
+}
+
+.red{
+    color: rgb(255, 85, 85);
+}
+
+.green {
+color: rgb(10, 228, 10);
+}
+
+.hero__subheading {
+    font-size: 2.2rem;
+    color: rgb(182, 182, 182);
+    margin-top: 2rem;
+}

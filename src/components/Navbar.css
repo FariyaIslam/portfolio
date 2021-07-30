@@ -1,0 +1,17 @@
+
+.navbar__parent {
+    padding: 2rem 2rem;
+    background: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__link >   a{
+    margin-left: 1.5rem;
+    font-size: 1.6rem;
+}
+.navbar__logo {
+    font-size: 3rem;
+    font-weight: 500;
+}
