@@ -1,0 +1,17 @@
+.features__parent {
+    height: 100vh;
+    background: white;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.features__heading h2 {
+    font-size: 4rem;
+    font-weight: 750;
+}
+
+.features__heading p {
+    font-weight: 500;
+    font-size: 2rem;
+    color: dimgray;
+}
