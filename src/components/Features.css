@@ -1,7 +1,9 @@
 .features__parent {
     height: 100vh;
+    width: 95%;
     background: white;
-    padding: 5rem 2rem;
+    padding: 5rem 4rem;
+    margin: 0 auto;
 
 }
 .features__heading {
@@ -10,7 +12,7 @@
 
 .features__heading h2 {
     font-size: 4rem;
-    font-weight: 750;
+    font-weight: 800;
   
 }
 
@@ -24,13 +26,16 @@
 .features__heading span {
     color: rgb(148, 56, 148);
     font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .features__list{
+    margin: 8rem 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
     row-gap: 2rem;
+    
 }
 
 .features__list h3 {
@@ -39,5 +44,29 @@
 }
 .features__list p {
     color: dimgray;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    
+    padding-right: 2rem;
+}
+.icon {
+    height: 24px;
+    width: 24px;
+    color: white;
+   
+}
+.box{
+    /* height: 48px;
+    width: 48px; */
+    padding: 1rem;
+    background: rgb(121, 71, 240);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+.parent{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
 }
