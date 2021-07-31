@@ -2,16 +2,42 @@
     height: 100vh;
     background: white;
     padding: 5rem 2rem;
+
+}
+.features__heading {
     text-align: center;
 }
 
 .features__heading h2 {
     font-size: 4rem;
     font-weight: 750;
+  
 }
 
 .features__heading p {
     font-weight: 500;
     font-size: 2rem;
     color: dimgray;
+    
+}
+
+.features__heading span {
+    color: rgb(148, 56, 148);
+    font-size: 1.5rem;
+}
+
+.features__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.features__list h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.features__list p {
+    color: dimgray;
+    font-size: 2rem;
 }

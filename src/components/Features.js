@@ -12,6 +12,23 @@ const Features = () => {
             </div>
             <div className="features__list">
 
+                <div>
+                    <h3>Competitive exchange rates</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+                </div>
+                <div>
+                    <h3>Competitive exchange rates</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+                </div>
+                <div>
+                    <h3>Competitive exchange rates</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+                </div>
+                <div>
+                    <h3>Competitive exchange rates</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+                </div>
+
             </div>
 
 
