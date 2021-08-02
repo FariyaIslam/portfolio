@@ -1,7 +1,7 @@
 import React from 'react'
 import './Testimonial.css'
 import { ChatAlt2Icon } from '@heroicons/react/outline'
-
+import peopleImg from "../assets/img/use-ai-to-make-pictures-of-fake-people.jpg"
 const Testimonial = () => {
     return (
         <section className="testimonial__parent">
@@ -18,6 +18,7 @@ const Testimonial = () => {
                         </div>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis.</p>
                         <div className="circle"></div>
+                        <img src={peopleImg} alt="people" width="100%" height="100%" />
                     </div>
 
 
@@ -26,13 +27,18 @@ const Testimonial = () => {
                             <ChatAlt2Icon></ChatAlt2Icon>
                         </div>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione ratione.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis</p>
-
+                        <div className="circle"></div>
+                        <img src={peopleImg} alt="people" width="100%" height="100%" />
                     </div>
                     <div className="testimonial__content3 card" >
                         <div className="testimonial__svg">
                             <ChatAlt2Icon></ChatAlt2Icon>
                         </div>
                         <p>  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione ratione.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis</p>
+
+                        <div className="circle">
+                            <img src={peopleImg} alt="people" width="100%" height="100%" />
+                        </div>
                     </div>
 
                 </div>
