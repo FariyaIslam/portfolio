@@ -1,0 +1,23 @@
+.testimonial__parent {
+    height: 80vh;
+    background: red;
+    
+}
+.testimonial__content {
+    display: flex;
+}
+
+.testimonial__content p{
+    padding: 1rem 2rem;
+}
+
+.testimonial__svg {
+    height: 46px;
+    width:  46px;
+}
+.card {
+    text-align: center;
+    background: green;
+    padding: 1rem 1rem;
+    margin: 0 10px;
+}
