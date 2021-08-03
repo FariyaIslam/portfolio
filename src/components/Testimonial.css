@@ -1,5 +1,5 @@
 .testimonial__parent {
-    height: 90vh;
+    height: 80vh;
     background: white;
     padding: 2rem 4rem;
     margin: 0 4rem;
@@ -7,8 +7,9 @@
 .testimonial__heading h2{ 
     text-align: center;
     padding: 3rem 2rem;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 3rem;
+    
 }
 .testimonial__content {
     display: flex;
