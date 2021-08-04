@@ -1,4 +1,9 @@
 .aboutus__parent {
     height: 80vh;
     background: orange;
+    text-align: center;
 }
+ .aboutus__parent h2 {
+     font-size: 3rem;
+     font-weight: 900;
+ }
