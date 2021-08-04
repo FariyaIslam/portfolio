@@ -6,7 +6,7 @@ const Testimonial = () => {
     return (
         <section className="testimonial__parent">
             <div className="testimonial__heading">
-                <h2>Testimonials</h2>
+                <h2>Testimonial</h2>
             </div>
 
             <div className="testimonial__list">

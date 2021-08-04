@@ -20,11 +20,11 @@ const LandingPage = () => {
             {/* Features */}
             <Features />
 
-            {/* About Us */}
-            {/* <AboutUs /> */}
-
             {/* Testimonial */}
             <Testimonial />
+
+            {/* About Us */}
+            < AboutUs />
 
             <TeamMembers />
 
