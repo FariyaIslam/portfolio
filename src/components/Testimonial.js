@@ -24,7 +24,7 @@ const Testimonial = () => {
                     </div>
 
 
-                    <div className="testimonial__content2 card">
+                    <div className="testimonial__content2 card middleCard">
                         <div className="testimonial__svg">
                             <ChatAlt2Icon></ChatAlt2Icon>
                         </div>
