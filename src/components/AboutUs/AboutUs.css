@@ -1,9 +1,26 @@
+
+.bg__svg {
+
+    width: 100%;
+    background: url("../../assets/img/wave.svg") no-repeat;
+    background-position: bottom;
+}
+
 .aboutus__parent {
     height: 80vh;
-    background: orange;
+    width: 45%;
+    margin: 0 auto;
+    padding: 2rem 5rem;
+    /* background: orange; */
     text-align: center;
 }
  .aboutus__parent h2 {
      font-size: 3rem;
      font-weight: 900;
+ }
+
+ .aboutus__parent p {
+    padding: 1rem 4rem;
+    letter-spacing: 1px;
+    color: dimgray;
  }
