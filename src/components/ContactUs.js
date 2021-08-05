@@ -3,9 +3,9 @@ import './ContactUs.css'
 
 const ContactUs = () => {
     return (
-        <div>
-            contact us
-        </div>
+        <section className="contact__parent">
+            <h2>Contact us</h2>
+        </section>
     )
 }
 
