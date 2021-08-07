@@ -9,7 +9,7 @@
 .aboutus__parent {
     height: 80vh;
     width: 45%;
-    margin: 5rem auto;
+    margin: 5rem auto 0 auto;
     padding: 2rem 5rem;
     /* background: orange; */
     text-align: center;
