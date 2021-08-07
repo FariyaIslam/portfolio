@@ -26,7 +26,7 @@ const LandingPage = () => {
             {/* About Us */}
             < AboutUs />
 
-            <TeamMembers />
+
 
             {/* Contact Us */}
             <ContactUs />
