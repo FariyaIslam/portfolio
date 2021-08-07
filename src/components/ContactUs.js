@@ -4,7 +4,8 @@ import './ContactUs.css'
 const ContactUs = () => {
     return (
         <section className="contact__parent">
-            <h2>Contact us</h2>
+            <div className="contact__bg">
+            </div>
         </section>
     )
 }

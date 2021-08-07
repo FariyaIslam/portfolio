@@ -1,5 +1,15 @@
 .contact__parent {
-    height: 70vh;
-    background: rgb(54, 28, 9);
-    padding: 2rem 2rem;
+    height: 100vh;
+}
+
+.contact__bg {
+    background-image: url("../assets/img/group1\ \(2\).jpg");
+    height: 100vh;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    opacity: 0.5;
+
+   
 }
