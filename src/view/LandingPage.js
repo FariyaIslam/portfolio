@@ -7,6 +7,7 @@ import Testimonial from '../components/Testimonial'
 import TeamMembers from '../components/TeamMembers'
 import ContactUs from '../components/ContactUs'
 import Footer from '../components/Footer'
+import Reactmap from '../components/Reactmap'
 
 const LandingPage = () => {
     return (
@@ -33,6 +34,8 @@ const LandingPage = () => {
 
             {/* Footer */}
             <Footer />
+
+            <Reactmap />
 
 
         </div>

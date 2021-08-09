@@ -2,6 +2,14 @@ import React from 'react'
 import './Navbar.css'
 
 const Navbar = () => {
+
+    let navItems = [
+        { url: "about-us", text: "About Us" },
+        { url: "portfolio", text: "Portfolio" },
+        { url: "testimonial", text: "Testimonial" },
+        { url: "contact-us", text: "Contact Us" },
+    ]
+
     return (
         <div className="navbar">
             <div className="navbar__parent">
@@ -10,10 +18,13 @@ const Navbar = () => {
                 </div>
 
                 <div className="navbar__link">
-                    <a href="#about-us" >About Us</a>
-                    <a href="#about-us" >About Us</a>
-                    <a href="#about-us" >About Us</a>
-                    <a href="#about-us" >About Us</a>
+                    {
+                        navItems.map(link =>
+                            <a href={link.url}>{link.text}</a>
+                        )
+                    }
+
+
                 </div>
             </div>
         </div>
