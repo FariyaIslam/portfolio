@@ -10,6 +10,7 @@ import Footer from '../components/Footer'
 import Reactmap from '../components/Reactmap'
 import Fruits from '../components/Fruits'
 import Flowers from '../components/Flowers'
+import Example from '../components/Example'
 
 const LandingPage = () => {
     return (
@@ -40,6 +41,8 @@ const LandingPage = () => {
             <Reactmap />
             <Fruits />
             <Flowers />
+            <Example />
+
 
 
         </div>
