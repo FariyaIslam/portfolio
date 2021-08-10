@@ -8,6 +8,8 @@ import TeamMembers from '../components/TeamMembers'
 import ContactUs from '../components/ContactUs'
 import Footer from '../components/Footer'
 import Reactmap from '../components/Reactmap'
+import Fruits from '../components/Fruits'
+import Flowers from '../components/Flowers'
 
 const LandingPage = () => {
     return (
@@ -36,6 +38,8 @@ const LandingPage = () => {
             <Footer />
 
             <Reactmap />
+            <Fruits />
+            <Flowers />
 
 
         </div>
