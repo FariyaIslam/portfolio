@@ -42,6 +42,7 @@ const LandingPage = () => {
             <Fruits />
             <Flowers />
             <Example />
+            <practise />
 
 
 
